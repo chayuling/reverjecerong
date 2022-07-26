@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+h1,p,li,a {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 47px;
+    text-transform: uppercase;
+}
+
+
+.wh40{
+    width: 40% !important;
+}
+
+.wh50{
+    width: 50% !important;
+}
+
+.wh90{
+    width: 90% !important;
+}
+
+.pt30{
+    padding-top: 30px !important;
+}
+
+.pt40{
+    padding-top: 40px !important;
+}
+
+.pt50{
+    padding-top: 50px !important;
+}
+
+.pt60{
+    padding-top: 60px !important;
+}
+
+
+ /* BARRA DE NAVEGACION */
+
+.menunavegacion {
+    width: 100%;
+    background-color: #00963d;
+   
+}
+
+.menunav {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+
+.nav-link{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.active {
+    text-decoration-line: underline !important;
+    color: #e4df1b !important;
+}
+
+.navp {
+    padding-right: 40px; 
+}
+
+a:hover {
+    color: #ffffff !important;
+}
+
+a:active {
+    text-decoration-line: underline !important;
+    color: #e4df1b !important;
+}
+
+a:visited {
+    color: #ffffff !important;
+}
+
+a:link {
+    color: #ffffff !important;
+}
+
+/* FIN BARRA DE NAVEGACION */
+
+
+
+ /* BANNER */
+
+.banner {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+
+
+ /* FIN DE BANNER */
+
+
+  /*SOBRE NOSOTROS */
+.titulos {
+    padding: 50px 0 80px 0;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+   margin: 0px auto;
+   padding-bottom: 80px;
+}
+
+.textonos {
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+   /*FIN DE SOBRE NOSOTROS */
+
+
+     /* QUE HACEMOS */
+.textoquehacemos {
+    padding-left: 100px;
+}
+
+    /* FIN QUE HACEMOS */
+
+
+    /* CURSOS */
+      
+    /* FIN CURSOS */
+
+
+    /* CONTACTANOS */
+.formulario {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input{
+    width: 70% !important;
+}
+
+textarea{
+    width: 85% !important;
+}
+
+.datosformulario {
+    width: 100%;
+    display: flex;
+}
+
+
+.boton {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 50px 0;
+}
+
+.btn {
+    background-color: #e94c15;
+    color: #ffffff;
+}
+    /* FIN CONTACTANOS */
+
+
+/* Media Queries */
+/* Media Queries */
+/* Media Queries */
+/* Media Queries */
+/* Media Queries */
+
+
+@media only screen and (max-width: 1024px) {
+
+     /* QUE HACEMOS */
+    .textoquehacemos {
+        padding-top: 20px;
+        padding-left: 50px;
+    }
+
+     /* FIN QUE HACEMOS */
+        
+}
+
+
+
+@media only screen and (max-width: 912px) {
+
+    .whmob90{
+        width: 90% !important;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    /* navbar */
+    
+    /* navbar */
+
+    /* banner */
+    .banner{
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+      /*SOBRE NOSOTROS */
+
+    .nosotrosmob{
+        flex-direction: column-reverse;
+        width: 95%;
+    }
+
+    .titulos{
+        padding-bottom: 20px !important;
+    }
+
+    .textonos {
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+   /*FIN DE SOBRE NOSOTROS */
+
+    /* QUE HACEMOS */
+    
+    .textoquehacemos {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    
+    /* FIN QUE HACEMOS */
+
+
+        
+}
+
+@media only screen and (max-width: 600px) {
+
+    p{
+        font-size: 20px;
+    }
+
+    .mbpt30{
+        padding-top: 30px !important;
+    }
+
+    .mobwh50{
+        width: 50% !important;
+    }
+
+    .mobwh100{
+        width: 100% !important;
+    }
+
+    .titulos{
+        padding-bottom: 10px !important;
+    }
+
+    /* navbar */
+    
+    /* navbar */
+
+    /* banner */
+    .banner{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+     /* QUE HACEMOS */
+    .textoquehacemos {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+     /* FIN QUE HACEMOS */
+
+    .formulario {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .datosformulario {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input{
+        width: 100% !important;
+    }
+    
+    textarea{
+        width: 100% !important;
+    }
+
+    
+
+        
+}
+    
+    
+
+
+
+
